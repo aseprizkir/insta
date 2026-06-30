@@ -9,6 +9,7 @@ Cocok dijalankan secara lokal di **Termux (Android)**, **Linux**, maupun **macOS
 ## 🛠️ Cara Install & Setup
 
 ### 1. Kloning Repositori & Masuk Folder
+Pastikan Anda sudah menginstal Git dan Python 3 (khusus pengguna Termux, jalankan `pkg install git python` terlebih dahulu).
 ```bash
 git clone <URL_GITHUB_ANDA>
 cd insta
