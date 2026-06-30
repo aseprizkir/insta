@@ -1,0 +1,9 @@
+{
+    "telegram_bot_token": "",
+    "instagram_cookie": "",
+    "openai_api_key": "",
+    "openai_base_url": "https://api.openai.com/v1",
+    "openai_model": "gpt-4o-mini",
+    "allowed_users": [],
+    "admin_cookies": []
+}

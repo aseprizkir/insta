@@ -1,0 +1,33 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv*/
+venv/
+*.db
+*.sqlite
+*.sqlite3
+
+# Sesi & Kredensial (Sensitif)
+.kukis.log
+*.log
+bot_config.json
+threads_config.json
+bot_cache.db
+debug_ig.html
+cookie
+cookies*
+proxies.txt
+2FA.txt
+data/
+
+# File Hasil Ekspor
+exports/
+report_*.txt
+comments_*.csv
+*_followers.csv
+*_following.csv
+
+# Lainnya
+komen.txt
+request.txt
