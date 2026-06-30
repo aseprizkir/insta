@@ -11,14 +11,17 @@ Cocok dijalankan secara lokal di **Termux (Android)**, **Linux**, maupun **macOS
 ### 1. Kloning Repositori & Masuk Folder
 Pastikan Anda sudah menginstal Git dan Python 3 (khusus pengguna Termux, jalankan `pkg install git python` terlebih dahulu).
 ```bash
-git clone <URL_GITHUB_ANDA>
+git clone https://github.com/aseprizkir/insta
 cd insta
 ```
 
 ### 2. Instalasi Dependensi
 Jalankan perintah berikut untuk menginstal modul Python yang dibutuhkan:
 ```bash
+apt update && apt upgrade
+apt install python3
 pip install -r requirements.txt
+python3 run.py
 ```
 
 ### 3. Konfigurasi Awal
@@ -34,6 +37,7 @@ File template tersedia di:
 
 Jalankan perintah berikut di terminal/Termux Anda:
 ```bash
+cd insta
 python run.py
 ```
 
